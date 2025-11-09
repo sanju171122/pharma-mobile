@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#10B981"/>
+  
+  <!-- White circle background -->
+  <circle cx="512" cy="512" r="400" fill="white"/>
+  
+  <!-- Pharmacy Cross Symbol -->
+  <g transform="translate(512, 512)">
+    <!-- Vertical bar of cross -->
+    <rect x="-60" y="-200" width="120" height="400" fill="#10B981" rx="20"/>
+    <!-- Horizontal bar of cross -->
+    <rect x="-200" y="-60" width="400" height="120" fill="#10B981" rx="20"/>
+    
+    <!-- Mortar and Pestle symbol (simplified) -->
+    <path d="M -100 100 L 100 100 L 80 180 L -80 180 Z" fill="#10B981"/>
+    <rect x="-15" y="50" width="30" height="80" fill="#10B981" rx="10"/>
+    <circle cx="0" cy="40" r="25" fill="#10B981"/>
+  </g>
+</svg>

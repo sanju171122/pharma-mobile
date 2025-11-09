@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1242" height="2436" viewBox="0 0 1242 2436" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1242" height="2436" fill="#10B981"/>
+  
+  <!-- Logo area -->
+  <g transform="translate(621, 1000)">
+    <!-- White circle -->
+    <circle cx="0" cy="0" r="150" fill="white" opacity="0.9"/>
+    
+    <!-- Cross -->
+    <rect x="-30" y="-100" width="60" height="200" fill="#10B981" rx="10"/>
+    <rect x="-100" y="-30" width="200" height="60" fill="#10B981" rx="10"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="621" y="1300" font-family="Arial, sans-serif" font-size="80" font-weight="bold" text-anchor="middle" fill="white">
+    Pharmland
+  </text>
+  
+  <text x="621" y="1380" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="white" opacity="0.9">
+    Professional Clinical Platform
+  </text>
+  
+  <!-- Loading indicator -->
+  <circle cx="621" cy="1500" r="20" fill="none" stroke="white" stroke-width="4" opacity="0.5"/>
+  <path d="M 621 1480 A 20 20 0 0 1 641 1500" fill="none" stroke="white" stroke-width="4" stroke-linecap="round">
+    <animateTransform attributeName="transform" type="rotate" from="0 621 1500" to="360 621 1500" dur="1s" repeatCount="indefinite"/>
+  </path>
+</svg>
