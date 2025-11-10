@@ -46,7 +46,9 @@
             "useFrameworks": "static"
           }
         }
-      ]
-    ]
+      ],
+      "expo-router"
+    ],
+    "scheme": "pharmland"
   }
 }
